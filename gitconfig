@@ -1,6 +1,6 @@
 [user]
-	email = sg+github@roothausen.de
-	name = Sven Pfleiderer
+	email = ingo.ebel@ingoebel.de
+	name = Ingo Ebel
 
 [alias]
   whelp = !bash -c 'open http://www.kernel.org/pub/software\
