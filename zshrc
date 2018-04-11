@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
-export ZSH_THEME="kennethreitz"
+export ZSH_THEME="amuse"
 
 # Set to this to use case-sensitive completion
 export CASE_SENSITIVE="true"
@@ -17,11 +17,11 @@ export DISABLE_AUTO_UPDATE="true"
 # export DISABLE_LS_COLORS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-plugins=(dirpersist git osx brew npm rvm ruby gem redis-cli)
+plugins=(dirpersist git npm rvm ruby gem zsh-syntax-highlighting ssh-agent screen docker)
 
 # Locale settings (utf-8)
-export LC_CTYPE=en_US.UTF-8
-export LANG=en_US.UTF-8
+export LC_CTYPE=de_DE.UTF-8
+export LANG=de_DE.UTF-8
 
 # load ~/.zshrc.local
 [[ -s $HOME/.zshrc.local ]] && source "$HOME/.zshrc.local"
