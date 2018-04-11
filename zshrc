@@ -17,7 +17,7 @@ export DISABLE_AUTO_UPDATE="true"
 # export DISABLE_LS_COLORS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-plugins=(dirpersist git npm rvm ruby gem zsh-syntax-highlighting ssh-agent screen docker)
+plugins=(dirpersist git npm rvm ruby gem zsh-syntax-highlighting ssh-agent screen docker mosh)
 
 # Locale settings (utf-8)
 export LC_CTYPE=de_DE.UTF-8
